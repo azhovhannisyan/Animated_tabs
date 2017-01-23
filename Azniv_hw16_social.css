@@ -1,0 +1,99 @@
+.body{
+    margin:0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    background: rgb(255,127,90);
+    height: 600px;
+    position: relative;
+}
+.icons{
+    width:100%;
+    height: 300px;    
+    top: 150px;
+    background: rgb(72,171,205); 
+    position: absolute;
+}
+.container{
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-left: 1px;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+.first{
+    width:100px;
+    height: 100%;
+    position: absolute;
+    z-index:1;
+    background: rgb(90,191,229);
+    left:0px;
+    transition: all 0.6s; 
+}
+.second{
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    z-index:0;
+    background: white;
+    left:-50px;
+    transition: all 0.6s;    
+}
+i{
+    width: 100px;
+    text-align: center;
+    color:white;
+}
+.first i{
+    font-size:60px;
+    padding: 120px 0px;    
+}
+.second i{
+    font-size:90px;
+    padding: 105px 0px;
+    position: relative;
+    float:left;
+}
+.text{
+    padding: 80px 15px;
+    width:360px;
+    color: black;
+    position: relative;
+    float:left;
+}
+.container:hover{
+    width: 500px;
+}
+.container:hover .first{
+    left:-100px;
+}
+.container:hover .second{
+    left:0px;
+}
+#twit{
+    background: rgb(97,209,255);
+}
+#fb{
+    background: rgb(70,128,185);
+}
+#lin{
+    background: rgb(0,147,201);
+}
+#insta{
+    background: rgb(109,169,27);
+}
+#y_t{
+    background: rgb(234,44,35);
+}
+#tumblr{
+    background: rgb(39,64,89);
+}
+#drib{
+    background: rgb(236,81,119);
+}
